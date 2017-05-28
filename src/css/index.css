@@ -26,6 +26,9 @@ a:hover {
   color: #999;
 }
 
+code {
+  color: #359a62;
+}
 article {
   margin-top: 50px;
 }
