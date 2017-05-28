@@ -1,7 +1,5 @@
-# trimpng
-trim whitespace and useless pixels for png: <http://quanfeng.tech/trimpng/>
-
-<img src="https://pic4.zhimg.com/v2-678bdd8ac1609620af994808f15577b3.jpg" width="500" />
+# 简历模板
+简洁的前端工程师简历模板
 
 # dev
 ```

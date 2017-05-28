@@ -2,50 +2,96 @@
 <html lang="zh_CN">
 <head>
     <meta charset="UTF-8">
-    <title>TrimPNG</title>
+    <title>李全锋的简历-前端开发</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://quanfeng.tech/resume/">
 
     <link rel="shortcut icon" href="//cdn.tinypng.com/images/favicon.ico?ca653c6">
     <link rel="apple-touch-icon" href="//cdn.tinypng.com/images/apple-touch-icon.png?ca653c6">
-
-    <link href="//cdn.bootcss.com/pure/0.6.1/base-min.css" rel="stylesheet">
-    <link href="//cdn.bootcss.com/pure/0.6.1/buttons-core-min.css" rel="stylesheet">
-    <link href="//cdn.bootcss.com/pure/0.6.1/buttons-min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/trimpng/build/bundle.css">
+    <link rel="stylesheet" href="/resume/build/bundle.css">
 </head>
 <body>
-    <header class="header">
-      <div class="logo"></div>
-      <a class="fork-on-github" href="https://www.github.com/0326/trimpng" target="_blank">fork on GitHub</a>
-    </header>
-    <div class="wrapper">
-        <div class="btn-wrapper">
-          <div class="pure-button pure-button-primary button-fileupload">
-            <span>上传图片</span>
-            <input id="J_ImgUpload" type="file" accept="image/png">
-          </div>
-          <button id="J_ImgTrim" class="pure-button button-secondary">去除白边</button>
-          <button id="J_ImgCrop" class="pure-button button-secondary">裁剪空白</button>
-          <a id="J_ImgDownload" class="pure-button button-success" href="" download="">下载图片</a>
-          <button id="J_EmptyBtn" class="pure-button button-error">清空内容</button>
-        </div>
-        <div class="canvas-wrapper empty">
-          <canvas id="J_Canvas" width="500" height="260"></canvas>
-          <div class="tips">请上传图片</div>
-        </div>
-        <div class="test-wrapper">
-          <h2>测试图片</h2>
-          <ul id="J_TestImgs" class="img-list">
-            <li><img class="test-img" src="./test3.png" alt="皮卡丘"></li>
-            <li><img class="test-img" src="./test1.png" alt="手机"></li>
-            <li><img class="test-img" src="./test2.png" alt="椭圆"></li>
+    <div class="resume-container">
+      <aside class="resume-aside">
+        <article>
+          <h1>联系方式</h1>
+          <ul>
+            <li>手机：保密</li>
+            <li>邮箱：liquanfeng326@icloud.com</li>
           </ul>
-        </div>
+        </article>
+        <article>
+          <h1>专业技能</h1>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>PhotoShop</li>
+          </ul>
+        </article>
+        <article>
+          <h1>社交平台</h1>
+          <ul>
+            <li>知乎：<a href="https://www.zhihu.com/people/ifeng326/answers">@动感小前端</a></li>
+            <li>GitHub：<a href="https://github.com/0326">@0326</a></li>
+            <li>LOFTER：<a href="https://liquanfeng.lofter.com/">@全锋印象</a></li>
+          </ul>
+        </article>
+        <article>
+          <h1>联系方式</h1>
+          <ul>
+            <li>手机：***********</li>
+            <li>邮箱：liquanfeng326@icloud.com</li>
+          </ul>
+        </article>
+      </aside>
+      <section class="resume-main">
+        <article class="avatar-info">
+          <img src="//7xp4vm.com1.z0.glb.clouddn.com/avatar-panda.jpg" class="avatar-img" alt="李全锋">
+          <p class="avatar-name">李全锋</p>
+          <p class="avatar-title">前端开发</p>
+          <p class="avatar-loc">浙江，杭州</p>
+        </article>
+        <article>
+          <h1>个人简介</h1>
+          <p>具备丰富的无线页面开发经验，对SPA，PWA，跨终端Web以及模块化有深刻理解，能很好的使用技术驱动业务，并把控项目进度和风险。信仰开放，自由，分享的Web理念，拥有良好的技术视野和技术前瞻能力。专注前端的同时也喜欢设计，能链接商业，设计与计算能力，为用户提供专业的人机交互体验。</p>
+        </article>
+        <article class="experience-ctr">
+          <h1>工作经历</h1>
+          <section class="experience-ctx">
+            <h2>高级前端开发工程师 @阿里通信</h2>
+            <p class="exp-time">2017/01~至今</p>
+            <p>主要基于手淘、猫客、支付宝环境从事无线端Web应用开发。在SPA开发，溅进式Web开发以及跨终端Web开发方面有丰富经验，关注Web性能以及用户体验。</p>
+          </section>
+          <section class="experience-ctx">
+            <h2>前端开发工程师 @阿里通信</h2>
+            <p class="exp-time">2015/07~2016/12</p>
+            <p>期间主要参与双11、双12、517通信节等行业大促活动开发。采用模块化开发方式，在高强度高压力的环境下顺利支撑活动业务并形成技术能力沉淀，也因此于16年底特殊晋升。</p>
+          </section>
+          <section class="experience-ctx">
+            <h2>Web开发工程师 @武汉华中时讯</h2>
+            <p class="exp-time">2013/09~2014/12</p>
+            <p>期间作为自主创业公司第一批技术人员参与到项目开发。主要负责官网、活动推广页、后台管理系统前端开发以及Python后台管理系统开发。当时使用并翻译的国外Web开源框架Pyramid文档已成为国内开发者重要的学习资料。</p>
+          </section>
+        </article>
+        <article class="experience-ctr">
+          <h1>教育经历</h1>
+          <section class="experience-ctx">
+            <h2>华中科技大学 软件工程</h2>
+            <p class="exp-time">2011/09~2015/06</p>
+            <p>大一：加入学院宣传部从事宣传设计相关工作，扎根图书馆恶补技术知识；</p>
+            <p>大二：进入学校网络中心IBM实验室实习，参与研究生相关项目研究；</p>
+            <p>大三：加入院技术团队，随后团队成立创业公司，参与创业产品开发及担任Web技术开发；</p>
+            <p>大四：担任学院毕业设计小组组长并获最佳项目二等奖及最佳组长奖。</p>
+          </section>
+        </article>
+      </section>
     </div>
-    <footer>
+    <footer class="resume-footer">
+      <p>Copyright 2017@quanfeng.tech</p>
     </footer>
-    <script src="/trimpng/build/bundle.js"></script>
+    <script src="/resume/build/bundle.js"></script>
 </body>
 </html>
